@@ -21,7 +21,7 @@ The model incorporates attention mechanisms and feature fusion techniques to lev
 
 ![ChemFusionSimilarity Architecture](https://github.com/Benjamin-JHou/ChemFusionSimilarity/blob/main/data/Architecture.jpg)
 
-The architecture includes:
+## The architecture includes📝:
 - SELFIES encoder
 - Morgan fingerprint encoder
 - Molecular descriptor encoder
@@ -32,10 +32,10 @@ The architecture includes:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ChemFusionSimilarity.git
+git clone https://github.com/Benjamin-JHou/ChemFusionSimilarity.git
 cd ChemFusionSimilarity
 
-# Create a virtual environment (optional but recommended)
+# Create a virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
@@ -92,10 +92,6 @@ model.eval()
 similarity = model(selfies_vec, fp_vec, desc_vec)
 ```
 
-## Examples 📝
-
-See the [example notebook](notebooks/examples.ipynb) for detailed usage examples.
-
 ## Citation 📄
 
 If you use ChemFusionSimilarity in your research, please cite our work:
@@ -112,16 +108,6 @@ If you use ChemFusionSimilarity in your research, please cite our work:
 ## License 📜
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing 🤝
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## Acknowledgements 🙏
 
