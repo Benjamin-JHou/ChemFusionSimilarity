@@ -92,22 +92,9 @@ model.eval()
 similarity = model(selfies_vec, fp_vec, desc_vec)
 ```
 
-## Citation 📄
-
-If you use ChemFusionSimilarity in your research, please cite our work:
-
-```bibtex
-@article{author2023chemfusion,
-  title={ChemFusionSimilarity: A Deep Learning Approach to Molecular Similarity Prediction},
-  author={Author, A.},
-  journal={Journal of Cheminformatics},
-  year={2023}
-}
-```
-
 ## License 📜
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE]([LICENSE](https://github.com/Benjamin-JHou/ChemFusionSimilarity/blob/main/license.md)) file for details.
 
 ## Acknowledgements 🙏
 
