@@ -19,7 +19,7 @@ The model incorporates attention mechanisms and feature fusion techniques to lev
 
 # Architecture 🏗️
 
-![ChemFusionSimilarity Architecture](https://via.placeholder.com/800x400?text=ChemFusionSimilarity+Architecture)
+![ChemFusionSimilarity Architecture](https://github.com/Benjamin-JHou/ChemFusionSimilarity/blob/main/data/Architecture.jpg)
 
 The architecture includes:
 - SELFIES encoder
